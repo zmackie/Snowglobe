@@ -1,31 +1,30 @@
 baseURL = "https://zmackie.com"
 languageCode = "en-us"
-defaultContentLanguage = "en"
 title = "zmackie"
 theme = "PaperMod"
-googleAnalytics = "UA-163788155-1"
 
 [permalinks]
-  post = "/:filename/"
+  posts = "/:filename/"
 
 [imaging]
   quality = 99
 
 [params]
-  homeMetaContent = "A Hugo theme made with PaperCSS, the less formal CSS framework."
-  # For more date formats see https://gohugo.io/functions/format/
+  description = "Writing about programming, security, learning, and whatever else."
   dateFormat = "Jan 2, 2006"
+  showReadingTime = true
+  showToc = true
 
 [menu]
-  [[menu.nav]]
+  [[menu.main]]
     name = "Posts"
     url = "/"
     weight = 1
-  [[menu.nav]]
+  [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 2
-  [[menu.nav]]
+  [[menu.main]]
     name = "RSS"
     url = "/index.xml"
     weight = 3
