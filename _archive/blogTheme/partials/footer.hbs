@@ -1,0 +1,21 @@
+<footer class="site-footer">
+	<div class="offsite-links">
+		{{#if @blog.twitter}}
+		<a class="twitter-link" href="{{twitter_url}}" target="_blank"><span class="icon-twitter" aria-hidden="true"></span><span
+			 class="screen-reader-text">Twitter</span></a>
+		{{/if}}
+		<a class="github-link" href="https://github.com/Zanadar" target="_blank"><span class="icon-github" aria-hidden="true"></span><span
+			 class="screen-reader-text">GitHub</span></a>
+		<a class="rss-link" href="{{ @blog.url }}/rss"><span class="icon-rss" aria-hidden="true"></span><span class="screen-reader-text">RSS
+				Feed</span></a>
+	</div><!-- .offsite-links -->
+	<div class="footer-bottom">
+		<div class="site-info">
+			&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>.<br />
+			Powered by <a target="_blank" href="https://ghost.org/">Ghost</a>. Scriptor theme by <a target="_blank" href="https://justgoodthemes.com/">JustGoodThemes</a>.
+			Double Face Illusion by Magicon from the Noun Project.
+		</div><!-- .site-info -->
+		<script async defer src="https://www.recurse-scout.com/loader.js?t=6dc84bddb115b46ae367e87725e9d643"></script>
+		<a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+	</div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
