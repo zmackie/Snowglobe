@@ -1,3 +1,8 @@
+---
+title: "Elixir Grimoires"
+draft: true
+---
+
 # Elixir Grimoires 🜅
 I’m pretty crazed about learning (like a good dev should). I spend a good deal of time vetting resources that I use to learn, because I find that time spent identifying high quality learnign materials pays off in how much and how quickly I learn. Last year I set out in earnest to learn the Elixir programming language. Here’s a review of the best resources I found:
 

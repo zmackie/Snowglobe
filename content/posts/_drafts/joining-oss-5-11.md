@@ -1,6 +1,7 @@
-++
++++
 draft = true
-++
+title = "How to Join an Existing Open Source Project"
++++
 
 # How to Join an existing open source project
 
