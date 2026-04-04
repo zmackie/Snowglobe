@@ -1,0 +1,30 @@
+baseURL = "https://zmackie.com"
+languageCode = "en-us"
+title = "zmackie"
+theme = "PaperMod"
+
+[permalinks]
+  posts = "/:filename/"
+
+[imaging]
+  quality = 99
+
+[params]
+  description = "Writing about programming, security, learning, and whatever else."
+  dateFormat = "Jan 2, 2006"
+  showReadingTime = true
+  showToc = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 3

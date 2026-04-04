@@ -1,0 +1,13 @@
+{{!-- This is the post loop - each post will be output using this markup --}}
+{{#foreach posts}}
+<article class="{{post_class}}">
+	<header class="post-header">
+		{{#if featured}}
+		<span class="featured-post">&darr; Featured</span>
+		{{/if}}
+		<time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+		<br class="media-break">
+		<span class="post-title"><a href="{{{url}}}" rel="bookmark">{{title}}</a></span>
+	</header><!-- .post-header -->
+</article>
+{{/foreach}}
